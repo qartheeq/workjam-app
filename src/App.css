@@ -1,0 +1,41 @@
+h1 {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.list-container {
+  margin-top: 50px;
+}
+
+.grid-items {
+  border: 1px solid #ccc;
+  margin-top: -1px;
+  margin-left: -1px;
+  padding: 5px;
+}
+
+.title .grid-items {
+  font-weight: bold;
+}
+
+.modal-pane {
+  position: absolute;
+  border: 1px solid #ccc;
+  width: 80%;
+  left: 10%;
+  top: 200px;
+  background-color: #fff;
+}
+
+.modal-pane .row {
+  background-color: #fff;
+}
+
+.img-container {
+  float: right;
+  position: relative;
+  top: 58px;
+  right: 108px;
+  z-index: 1;
+}
+
